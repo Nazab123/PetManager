@@ -12,7 +12,7 @@ La clase debe crearse con:
 
 Un arreglo llamado pets, que comenzará vacío.
 
-Un contador interno llamado idCounter, que iniciará en 1 y se utilizará para asignar los IDs autoincrementables.
+Un contador interno llamado id, que iniciará en 1 y se utilizará para asignar los IDs autoincrementables.
 
 Propiedades de cada mascota
 
@@ -32,9 +32,6 @@ vaccinated: valor booleano que indique si está vacunada o no.
 
 notes: un campo opcional para anotaciones adicionales.
 
-Métodos obligatorios a implementar
-1. addPet(name, species, age, owner, vaccinated, notes = "")
-
 Debe realizar lo siguiente:
 
 Validar que todos los campos obligatorios estén presentes.
@@ -42,10 +39,6 @@ Validar que todos los campos obligatorios estén presentes.
 Validar que el campo vaccinated sea estrictamente un booleano.
 
 Evitar registrar dos mascotas que tengan el mismo nombre y el mismo dueño.
-
-Crear el objeto mascota con un id autoincrementable.
-
-Agregarla al arreglo de mascotas.
 
 2. getPets()
 
